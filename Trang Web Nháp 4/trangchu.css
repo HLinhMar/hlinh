@@ -1,0 +1,360 @@
+.header {background: #D8E3E3;
+	background-image: URL('headernen.jpg');
+	margin: 0 auto;
+	width: 840px;
+	height: 140px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999;
+
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 400px 140px;
+}
+
+div img {
+	float: left;
+	height: 140px;
+}
+div h1 {
+	float: left;
+	font-family: garamond;
+}
+.mucluc_class {
+	width: 800px;
+	height: 25px;
+	position: relative;
+	margin: 0 auto;
+	background: #D7FA8C; 
+
+	border-style: solid;
+	border-color: #999;
+	border-width: 1px;
+}
+.main1 {
+	width: 620px;
+	height: 370px;
+	margin-left: 250px;
+	position: relative;
+	float: left;
+
+}
+#pic_main1 {
+	height: 242px;
+	width: 620px;
+	background-image: url('main1.png');
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 620px 242px;
+	position: relative;
+}
+#mucluc {
+	float: left;
+	display: inline;
+	position: relative;
+
+}
+.mucluc_class>li {
+	margin-left: 10px;
+	padding: 1px;
+
+	font-size: 20px;
+	font-stretch: 1px;
+}
+.mucluc_class>li:hover {
+	margin-left: 10px;
+	padding: 1px;
+	background: #999;
+	color: #EEF26D;
+
+	font-size: 20px;
+	font-stretch: 1px;
+}
+#info_main1 {
+	text-indent: 0px;
+	font-family: arial;
+	font-size: 16px;
+	position: relative;
+	font-style: italic;
+}
+a:link {
+	color: black;
+	text-decoration-line: none;
+}
+a:visited {
+	color: black;
+	text-decoration-line: none;
+}
+.sidebar_class {
+	width: 200px;
+	height: 1000px;
+	float: right;
+	margin-right: 250px;	
+	display: inline;
+	position: relative;
+}
+#sidebar_frame {
+	margin: 4px 0px;
+	width: 200px;
+	height: 20px;
+	position: relative;
+	text-indent: 10px;
+	font-family: garamond;
+}
+/* Quảng cáo ở SideBar */
+#qc1 {
+	width: 200px;
+	height: 200px;
+	background-image: url('quangcao1.png');
+	background-size: 180px 180px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#qc1:hover {
+	width: 200px;
+	height: 200px;
+	background-image: url('quangcao1.png');
+	background-size: 200px 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#des {
+	text-align: center;
+	font-weight: bold;
+	font-family: garamond;
+}
+#qc2 {
+	width: 200px;
+	height: 200px;
+	background-image: url('quangcao2.png');
+	background-size: 180px 180px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#qc2:hover {
+	width: 200px;
+	height: 200px;
+	background-image: url('quangcao2.png');
+	background-size: 200px 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+/* Video lề trái */
+.video_class {
+	width: 620px;
+	height: 510px;
+	margin-left: 250px;
+	position: relative;
+	float: left;
+
+}
+#title {
+	font-family: garamond;
+	font-weight: bold;
+	font-size: 30px;
+}
+table tr #video {
+	position: relative;
+	height: 400px;
+	width: 225px;
+	margin: 0 0;
+}
+table tr #video_des {
+	position: relative;
+	display: block;
+	padding: 1em;
+
+	background-image: url('bround1.jpg');
+	background-repeat: no-repeat;
+	background-size: 387px 154px;
+
+	border-radius: 4px;
+	border-style: solid;
+	border-color: #888;
+	border-width: 2px;
+	
+	font-size: 24px;
+	font-weight: bold;
+	font-style: italic;
+}
+table tr #video_des #text {
+	text-indent: 30px;
+	text-align: center;
+
+}
+table tr #comment {
+	padding: 60px 10px;
+	background-size: 387px 233px;
+	background-image: url('bround2.jpg');
+
+	border-radius: 4px;
+	border-style: solid;
+	border-color: #888;
+	border-width: 2px;
+	
+}
+table tr #comment #text {
+	text-indent: 30px;
+	font-size: 20px;
+	text-align: justify;
+	font-family: garamond;
+}
+table tr #comment #text-right {
+	text-indent: 30px;
+	text-align: right;
+	font-style: oblique;
+}
+/* Mặt hàng */
+.main2 {
+	width: 620px;
+	height: 350px;
+	margin-left: 250px;
+	position: relative;
+	float: left;
+}
+
+.main2 table {
+	width: 620px;
+	height: 170px;
+}
+	/* Hình ảnh mặt hàng */
+.main2 table tr td:first-child {
+	background-image: url('mathang1.png');
+	background-size: 150px 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main2 table tr td:nth-child(2) {
+	background-image: url('mathang2.png');
+	background-size: 150px 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main2 table tr td:nth-child(3) {
+	background-image: url('mathang3.png');
+	background-size: 150px 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main2 table tr td:nth-child(4) {
+	background-image: url('mathang4.png');
+	background-size: 150px 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.main2 table tr td:first-child:hover {
+	background-image: url('mathang1_hover.png');
+	background-size: 150px 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main2 table tr td:nth-child(2):hover {
+	background-image: url('mathang2_hover.png');
+	background-size: 150px 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main2 table tr td:nth-child(3):hover {
+	background-image: url('mathang3_hover.png');
+	background-size: 150px 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main2 table tr td:nth-child(4):hover {
+	background-image: url('mathang4_hover.png');
+	background-size: 150px 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+#seemore {
+	text-align: center;
+	font-size: 18px;
+	font-family: garamond;
+	font-weight: bold;
+	background: #888;
+	color: white;
+
+	border-radius: 4px;
+	border-style: solid;
+	border-color: #888;
+	border-width: 2px;
+	
+}
+#seemore:hover {
+	text-align: center;
+	font-size: 18px;
+	font-family: garamond;
+	font-weight: bold;
+	background: #666;
+	color: white;
+
+	border-radius: 4px;
+	border-style: solid;
+	border-color: #888;
+	border-width: 2px;
+	
+}
+#mathang {
+	width: 150px;
+	height: 150px;
+}
+
+/* Feedback */
+.main3 {
+	width: 620px;
+	height: 400px;
+	margin-left: 250px;
+	position: relative;
+	float: left;
+}
+
+.main3 table {
+	width: 620px;
+	height: 266px;
+}
+.main3 table tr td:first-child {
+	background-image: url('feedback1.png');
+	background-size: 150px 266px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main3 table tr td:nth-child(2) {
+	background-image: url('feedback2.png');
+	background-size: 150px 266px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main3 table tr td:nth-child(3) {
+	background-image: url('feedback3.png');
+	background-size: 150px 266px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main3 table tr td:nth-child(4) {
+	background-image: url('feedback4.png');
+	background-size: 150px 266px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#mathang_des {
+	border-radius: 4px;
+	border-style: solid;
+	border-color: #888;
+	border-width: 2px;
+
+	padding: 8px;
+	background-size: 387px 233px;
+	background-image: url('bround2.jpg');
+	text-align: center;
+	font-size: 20px;
+	font-style: oblique;
+
+}
